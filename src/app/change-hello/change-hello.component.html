@@ -1,0 +1,10 @@
+
+
+<form (ngSubmit)="submitHello()">
+  <div class="form-group">
+    <label for="helloInput">Enter Hello Message:</label>
+    <input type="text" class="form-control" id="helloInput" name="helloInput" [(ngModel)]="helloMessage" placeholder= {{helloMessage}} >
+  </div>
+  <button type="submit" class="btn btn-primary bg-dark">Submit</button>
+</form>
+
